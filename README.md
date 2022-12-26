@@ -14,7 +14,7 @@
 
 ¡Hola!, mi nombre es Hararec y soy un desarrollador full stack con experiencia en tecnologías como React y Angular. También tengo conocimientos en diseño de interfaz de usuario y trabajando en equipo bajo metodologías ágiles. Mi formación en matemáticas me brinda una visión analítica y lógica para abordar problemas técnicos. Además soy un apasionado por el mundo digital, y siempre estoy buscando nuevos desafíos para mejorar mis habilidades y ampliar mi conocimiento. Para mí será un gusto aportar valor a cualquier equipo de trabajo con soluciones innovadoras.
 
-#### _Mi contacto y redes sociales:_
+#### <div id="contacto">_Mi contacto y redes sociales:_<div/>
 
 <a href="https://github.com/hararecmg"><img src="https://camo.githubusercontent.com/b079fe922f00c4b86f1b724fbc2e8141c468794ce8adbc9b7456e5e1ad09c622/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667" alt="Enlace a Github de Hararec MG" style="width: 40px; height: 40px; margin-right: 20px;"></a>
 <a href="https://www.twitter.com/HararecMG"><img src="https://camo.githubusercontent.com/35b0b8bfbd8840f35607fb56ad0a139047fd5d6e09ceb060c5c6f0a5abd1044c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f747769747465722e737667" alt="Enlace a Facebook de Hararec MG" style="width: 40px; height: 40px; margin-right: 20px;"></a>
@@ -110,12 +110,12 @@ A continuación, se detallan las instrucciones para clonar y/o descargar, y ejec
 
 Este repositorio está licenciado bajo la licencia [MIT](https://opensource.org/licenses/MIT), ya que personalmente prefiero y valoro el código open source. Esto significa que tienes permiso para utilizar y modificar el código incluido en este repositorio de acuerdo con los términos especificados en la licencia. Si utilizas este código en tus propios proyectos, debes incluir una copia de la licencia y dar crédito al autor original (yo).
 
-Si tienes alguna pregunta o necesitas más información sobre cómo utilizar el código incluido en este repositorio, no dudes en ponerte en contacto conmigo a través de [LinkedIn](www.linkedin.com/in/hararec-medina-gonzález) o enviándome un [correo electrónico](mailto:hararecmedina@gmail.com). ¡Estaré encantado de ayudarte!
+Si tienes alguna pregunta o necesitas más información sobre cómo utilizar el código incluido en este repositorio, no dudes en ponerte en <a href="#contacto" style="scroll-behavior: smooth;">contacto</a> conmigo a través de [LinkedIn](www.linkedin.com/in/hararec-medina-gonzález) o enviándome un [correo electrónico](mailto:hararecmedina@gmail.com). ¡Estaré encantado de ayudarte!
 
 <hr/>
 
 
 ## <div id="gracias-por-visitarme">¡Gracias por visitarme!</div>
 
-Espero que hayas disfrutado explorando mis proyectos y que hayas encontrado algo de interés. Si tienes alguna pregunta o sugerencia, no dudes en <a href="#contacto" style="scroll-behavior: smooth;">ponerte en contacto conmigo</a>. ¡Me encantaría conocer tu opinión o colaborar contigo en futuros proyectos!
+Espero que hayas disfrutado explorando mis proyectos y que hayas encontrado algo de interés. Si tienes alguna pregunta o sugerencia, no dudes en ponerte en <a href="#contacto" style="scroll-behavior: smooth;">contacto</a> conmigo. ¡Me encantaría conocer tu opinión o colaborar contigo en futuros proyectos!
 
