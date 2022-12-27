@@ -123,7 +123,7 @@ A continuación, se detallan las instrucciones para clonar y/o descargar, y ejec
 
 ## <div id="licencia">Licencia</div>
 
-Este repositorio está licenciado bajo la licencia [MIT](https://opensource.org/licenses/MIT), ya que personalmente prefiero y valoro el código open source. Esto significa que tienes permiso para utilizar y modificar el código incluido en este repositorio de acuerdo con los términos especificados en la licencia. Si utilizas este código en tus propios proyectos, debes incluir una copia de la licencia y dar crédito al autor original (yo).
+Este repositorio está licenciado bajo la licencia [MIT](https://github.com/hararecmg/Portafolio-Personal/blob/main/LICENCE), ya que personalmente prefiero y valoro el código open source. Esto significa que tienes permiso para utilizar y modificar el código incluido en este repositorio de acuerdo con los términos especificados en la licencia. Si utilizas este código en tus propios proyectos, debes incluir una copia de la licencia y dar crédito al autor original (yo).
 
 Si tienes alguna pregunta o necesitas más información sobre cómo utilizar el código incluido en este repositorio, no dudes en ponerte en <a href="#contacto" style="scroll-behavior: smooth;">contacto</a> conmigo a través de [LinkedIn](www.linkedin.com/in/hararec-medina-gonzález) o enviándome un [correo electrónico](mailto:hararecmedina@gmail.com). ¡Estaré encantado de ayudarte!
 
