@@ -29,11 +29,13 @@
 
 Este repositorio alberga el código fuente del desarrollo de mi portafolio personal, creado con Angular CLI 15.0.4 y siguiendo el flujo de trabajo de Gitflow. Además, utilizo la notación de [Conventional Commits](https://www.conventionalcommits.org) para mis commits, lo cual me permite mantener un control y una buena documentación del código. Este proyecto ha sido inspirado en diversos diseños mostrados en el canal de Youtube [Online Tutorials](https://www.youtube.com/@OnlineTutorialsYT), por lo que quiero expresar mi más sincero agradecimiento por compartir su conocimiento y por ser una fuente de inspiración para mí. Mi portafolio incluye una selección de proyectos que he realizado a lo largo de mi carrera como desarrollador. Cada uno de ellos refleja mis habilidades y mi pasión por el desarrollo de software de calidad. ¡Si quieres conocer más sobre mi trabajo o colaborar juntos, no dudes en ponerte en contacto conmigo! Estoy seguro de que juntos podemos alcanzar grandes objetivos.
 
-#### _Proyectos incluidos_
+<details>
+  <summary>Proyectos incluidos</summary>
 
-A continuación, encontrarás una lista de algunos de los proyectos que he realizado y que he incluido en mi portafolio:
-
-- [Nombre del proyecto]: [descripción de lo que hace la aplicación].
+  A continuación, encontrarás una lista de algunos de los proyectos que he realizado y que he incluido en mi portafolio:
+  
+  - [Nombre del proyecto]: [descripción de lo que hace la aplicación].
+</details>
 
 <hr/>
 
@@ -41,13 +43,17 @@ A continuación, encontrarás una lista de algunos de los proyectos que he reali
 
 A continuación, se detallan las instrucciones para clonar y/o descargar, y ejecutar el proyecto en tu equipo.
 
-- #### Prerequisitos
+<details>
+  <summary>Prerequisitos</summary>
   Antes de comenzar, asegúrate de tener instalado en tu equipo:
 
   - [Git](https://git-scm.com/downloads)
   - [Node.js](https://nodejs.org/es/download/) y npm (viene incluido con la instalación de Node.js)
+</details>
 
-- #### (Opcional) Descargar el zip
+<details>
+  <summary>(Opcional) Descargar el zip</summary>
+
   Para descargar el archivo zip del repositorio, sigue estos pasos:
 
   - Haz clic en el botón "Code" que se encuentra en la esquina superior derecha de la página.
@@ -55,15 +61,19 @@ A continuación, se detallan las instrucciones para clonar y/o descargar, y ejec
   - Se te pedirá que eligas una ubicación para guardar el archivo zip. Selecciona la ubicación deseada y haz clic en "Guardar".
 
   _Es importante tener en cuenta que el archivo zip descargado no incluye la carpeta ".git" ni el historial de commits del repositorio. Si deseas acceder a esta información, debes clonar el repositorio utilizando la línea de comandos, esto descargará el repositorio completo en la ubicación actual del terminal._
+</details>
 
-- #### Clonar el Repositorio
+<details>
+  <summary>Clonar el Repositorio</summary>
   Para clonar el repositorio de este proyecto, abre una terminal y escribe lo siguiente:
   ```
   git clone https://github.com/hararecmg/hararecmg.github.io.git
   ```
   Esto creará una copia del repositorio en tu máquina local.
+</details>
 
-- #### Instalar Dependencias
+<details>
+  <summary>Instalar Dependencias</summary>
   Una vez que hayas descargado o clonado el repositorio, necesitarás instalar las dependencias del proyecto. Para hacerlo, abre una terminal y navega hasta la carpeta del proyecto:
   ```
   cd hararecmg.github.io
@@ -75,8 +85,10 @@ A continuación, se detallan las instrucciones para clonar y/o descargar, y ejec
   npm i
   ```
   Esto descargará todas las dependencias del proyecto y las instalará en la carpeta `node_modules`.
+</details>
 
-- #### Ejecutar la Aplicación
+<details>
+  <summary>Ejecutar la Aplicación</summary>
   Una vez que hayas instalado las dependencias del proyecto, puedes ejecutar la aplicación con el siguiente comando:
   ```
   ng serve
@@ -84,13 +96,16 @@ A continuación, se detallan las instrucciones para clonar y/o descargar, y ejec
   ng serve -o
   ```
   Esto iniciará un servidor de desarrollo local y abrirá la aplicación en tu navegador predeterminado. Cualquier cambio que realices en el código se reflejará automáticamente en el navegador.
+</details>
 
-- #### (Opcional) Crear tu Versión de Producción
+<details>
+  <summary>(Opcional) Crear tu Versión de Producción</summary>
   Para crear una versión de producción de tu aplicación, ejecuta el siguiente comando:
   ```
   ng build --prod
   ```
   Esto creará una versión optimizada de tu aplicación en la carpeta `dist`. Puedes utilizar esta versión para implementar la aplicación en un servidor de producción. ¡Espero que disfrutes trabajando con este proyecto de Angular!
+</details>
 
 <hr/>
 
