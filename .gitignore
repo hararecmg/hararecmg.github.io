@@ -6,6 +6,9 @@
 /out-tsc
 /bazel-out
 
+# Private configuration data
+config/config.json
+
 # Node
 /node_modules
 npm-debug.log
