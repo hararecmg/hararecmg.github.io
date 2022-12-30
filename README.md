@@ -95,6 +95,41 @@ A continuación, se detallan las instrucciones para clonar y/o descargar, y ejec
 </details>
 
 <details>
+  <summary>Gestión de claves privadas</summary>
+
+  Para mantener la privacidad de nuestras claves privadas, hemos decidido guardarlas en el archivo `config.json`. Este archivo se encuentra en el directorio `config` de la raíz de nuestro proyecto y es excluido del repositorio de Github mediante el uso de un archivo `.gitignore`.
+
+  Para acceder a las claves privadas desde nuestra aplicación de Angular, hemos creado un servicio llamado `ConfigService` que se encarga de cargar el archivo `config.json` y proporcionar acceso a sus datos. Además, hemos utilizado la variable de entorno de Angular `APP_INITIALIZER` para cargar los datos privados cuando se inicie la aplicación.
+
+  A continuación, te mostramos un ejemplo del código utilizado para inyectar el servicio `ConfigService` en un componente de nuestra aplicación de Angular y utilizar la variable de entorno `APP_INITIALIZER` para cargar los datos privados:
+
+  ```typescript
+  import { Injectable, APP_INITIALIZER } from '@angular/core';
+  import { ConfigService } from './config.service';
+  
+  export function configFactory(configService: ConfigService) {
+    return () => configService.loadConfig();
+  }
+  
+  @Injectable({
+    providedIn: 'root',
+    useFactory: configFactory,
+    deps: [ConfigService],
+    multi: true
+  })
+  export class AppConfig { }
+  ```
+  Con esto, cuando se inicie nuestra aplicación de Angular, se ejecutará la función `configFactory` que a su vez cargará los datos privados del archivo `config.json` utilizando el servicio `ConfigService`.
+
+  Para utilizar los datos privados en nuestra aplicación, podemos inyectar el servicio `ConfigService` en cualquier componente o servicio de nuestra aplicación y utilizar sus métodos para acceder a los datos privados. Por ejemplo, podemos hacerlo de la siguiente forma:
+
+  ```typescript
+  import { Component } from '@angular/core';
+  import { ConfigService } from './config.service';
+  ```
+</details>
+
+<details>
   <summary>Ejecutar la Aplicación</summary>
   
   Una vez que hayas instalado las dependencias del proyecto, puedes ejecutar la aplicación con el siguiente comando:
