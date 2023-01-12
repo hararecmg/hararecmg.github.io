@@ -1,0 +1,24 @@
+/* hararecmg - https://hararecmg.com */
+
+/* TEAM */
+
+Developer and Designer: Hararec M.G
+Location: CDMX, México
+
+/* WEBSITE */
+
+Programmed in Angular CLI 15.0.4
+
+/* RESOURCES */
+
+- Fonts: Google Fonts
+
+/* INSPIRATION */
+
+- Design: https://www.youtube.com/@OnlineTutorialsYT
+- https://jonmircha.com/
+
+/* CONTACT */
+
+Email: hararecmedina@gmail.com
+Twitter: @HararecMG
